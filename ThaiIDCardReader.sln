@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30114.105
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ThaiIDCardReader", "src\ThaiIDCardReader.csproj", "{DEBBD8B8-D34D-474E-B7A0-4B4BF5CA46D8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ThaiIDCardReader.Example", "example\ThaiIDCardReader.Example.csproj", "{153098E4-8717-4AD0-B012-A206F8071AAD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ThaiIDCardReader.Test", "test\ThaiIDCardReader.Test.csproj", "{A8FB23A7-9B7C-4D48-8926-5A68D62F9BF4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DEBBD8B8-D34D-474E-B7A0-4B4BF5CA46D8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DEBBD8B8-D34D-474E-B7A0-4B4BF5CA46D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DEBBD8B8-D34D-474E-B7A0-4B4BF5CA46D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DEBBD8B8-D34D-474E-B7A0-4B4BF5CA46D8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{153098E4-8717-4AD0-B012-A206F8071AAD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{153098E4-8717-4AD0-B012-A206F8071AAD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{153098E4-8717-4AD0-B012-A206F8071AAD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{153098E4-8717-4AD0-B012-A206F8071AAD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A8FB23A7-9B7C-4D48-8926-5A68D62F9BF4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A8FB23A7-9B7C-4D48-8926-5A68D62F9BF4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A8FB23A7-9B7C-4D48-8926-5A68D62F9BF4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A8FB23A7-9B7C-4D48-8926-5A68D62F9BF4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
