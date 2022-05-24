@@ -1,6 +1,7 @@
 ﻿using System;
 using ThaiIDCardReader;
 using PCSC;
+using System.Text.Json;
 
 namespace ThaiIDCardReader.Example
 {
@@ -21,7 +22,14 @@ namespace ThaiIDCardReader.Example
             {
                 if (args.State == SCRState.Present)
                 {
-                    var data = reader.GetData(args.ReaderName); //Read data from ID Card
+                    var data = reader.GetData(args.ReaderName, new ReadOptiontions() { NHSOInfo = true }); //Read data from ID Card
+                    Console.WriteLine("Card inserted");
+                    var json = JsonSerializer.Serialize(data, new JsonSerializerOptions()
+                    {
+                        PropertyNamingPolicy = JsonNamingPolicy.CamelCase,
+                        Encoder = System.Text.Encodings.Web.JavaScriptEncoder.UnsafeRelaxedJsonEscaping,
+                    });
+                    Console.WriteLine(json);
                 }
             };
             Console.ReadKey();
