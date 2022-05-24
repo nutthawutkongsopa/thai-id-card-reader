@@ -10,11 +10,19 @@
 		<GeneratePackageOnBuild>false</GeneratePackageOnBuild>
     <ImplicitUsings>disable</ImplicitUsings>
     <Nullable>disable</Nullable>
+    <PackageReadmeFile>readme.md</PackageReadmeFile>
+    <RepositoryUrl>https://github.com/nutthawutkongsopa/thai-id-card-reader</RepositoryUrl> 
+    <RepositoryType>git</RepositoryType>
+    <PublishRepositoryUrl>true</PublishRepositoryUrl>
   </PropertyGroup>
 
   <ItemGroup>
     <PackageReference Include="PCSC" Version="6.0.0" />
     <PackageReference Include="System.Text.Encoding.CodePages" Version="6.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="../doc/readme.md" Pack="true" PackagePath="/"/>
   </ItemGroup>
 
 </Project>
