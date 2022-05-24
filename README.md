@@ -3,6 +3,9 @@
 
 A library for reading Thai ID card data.
 
+## Package
+https://www.nuget.org/packages/ThaiIDCardReader
+
 
 ## Examples
 
